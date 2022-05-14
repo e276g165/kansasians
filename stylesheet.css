@@ -6,10 +6,49 @@
 }
 
 body {
-    background-image: linear-gradient(45deg, rgb(82, 85, 255), rgb(45, 188, 255));
+    background-image: linear-gradient(45deg, rgb(82, 85, 255), rgb(92, 203, 255));
     background-repeat: no-repeat;
+    color: white;
+
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
     font-family: cursive;
+    padding: 3%;
+}
+
+header h1 {
+    font-size: 4rem;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 31vw 31vw 31vw;
+    grid-template-rows: 33vh 33vh 33vh 33vh;
+    place-items: center;
+
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.grid .praise {
+    font-style: italic;
+}
+
+hr {
+    color: white;
+    width: 99%;
+}
+
+.contact {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+footer {
+    padding: 1%;
 }
