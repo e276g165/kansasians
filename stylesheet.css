@@ -41,8 +41,19 @@ header h1 {
     padding-right: 3vw;
 }
 
-.grid .praise {
-    font-style: italic;
+.transformed-state {
+    background-color: black;
+}
+
+.grid .praise-revolve {
+    transition-duration: 5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid .praise {
+    font-size: 1em;
+    display: block;
+    }
 }
 
 hr {
