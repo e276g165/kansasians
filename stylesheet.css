@@ -1,4 +1,4 @@
-/* Kansasians - Elijah Gabriel */
+/* Kansasian - Elijah Gabriel */
 
 * {
     padding: 0;
@@ -11,18 +11,24 @@ body {
     color: white;
 
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header {
-    font-family: cursive;
-    padding: 3%;
+header img {
+    width: 50vw;
+    height: 40vh;
+
+    padding-top: 15vh;
+    padding-bottom: 7vh;
 }
 
 header h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 15vh;
+
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .grid {
