@@ -1,0 +1,15 @@
+/* Kansasians - Elijah Gabriel */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgb(82, 85, 255), rgb(45, 188, 255));
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: cursive;
+}
